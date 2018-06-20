@@ -2,9 +2,24 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
 
+# Installation
+
+Clone the repository and run `npm install` to install dependecies
+
+# Userful resources
+
+https://coursetro.com/posts/code/84/Setting-up-an-Angular-4-MEAN-Stack-(Tutorial)
+
+https://stackoverflow.com/questions/42895585/hooking-up-express-js-with-angular-cli-in-dev-environment/42907043#42907043
+
+# Start Development server for api as well as client concurrently
+`npm run dev` 
+Which internally run 2 more commands `"dev": "concurrently \"npm run serve-api\" \"npm run serve\""`
+
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm run dev` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
